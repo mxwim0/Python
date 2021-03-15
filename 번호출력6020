@@ -1,0 +1,6 @@
+#번호 출력하는 코드
+#틀렸다가 고침
+
+a,b=map(str, input().split("-"))
+
+print(a+b)
