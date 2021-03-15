@@ -1,0 +1,9 @@
+# 시간을 출력하는 코드. 입력할때 : 로 구분자를 해 줘야 한다.
+# sys라는 함수를 사용해야 한다.
+# 살짝 헷갈린다. 다시 복습 해봐야 한다.
+
+import sys
+
+hour, minute = map(int,sys.stdin.readline().split(':'))
+
+print("%d:%d"%(hour,minute))
