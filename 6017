@@ -1,0 +1,6 @@
+#값을 입력받아 한줄로 출력하기
+
+a=input()
+
+for i in range(3):
+    print(a, end=' ')
