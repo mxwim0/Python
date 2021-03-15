@@ -1,0 +1,5 @@
+#번호를 입력받아 출력하는 코드
+
+a,b=map(str, input().split("-"))
+
+print(a+b)
