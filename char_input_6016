@@ -1,0 +1,4 @@
+#char 문자형을 2개를 입력받고 출력
+
+a,b= map(str,input().split())
+print(a,b)
