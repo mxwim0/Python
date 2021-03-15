@@ -1,0 +1,8 @@
+#년.월.일 을 입력받아 일-월-년 으로 출력하는 코드
+#6번째 줄에 map(int,sys.stdin.readline().split(".")) 이게 약간 헷갈렸다.
+
+import sys
+
+day,hour, minute = map(int,sys.stdin.readline().split("."))
+
+print("%d-%d-%d"%(minute,hour,day))
