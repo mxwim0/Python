@@ -1,0 +1,7 @@
+#숫자를 입력받아서 16진수(hexadecimal)로 변환하는 코드이다
+#틀렸지만, "%x"을 사용하면 16진수로 변환 시킬 수 있다. 8진수(Octal)은 "%o"를 사용해야 한다.
+
+import sys
+
+a=int(sys.stdin.readline())
+print("%x"%a)
