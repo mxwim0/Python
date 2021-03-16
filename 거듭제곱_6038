@@ -1,0 +1,6 @@
+#숫자 a,b를 입력받아서 거듭제곱 구하기.
+#헷갈렸던 부분은 print로 출력 할 때 int(a)와 int(b)로 int로 묶어줘서 출력을 해야 한다는 것이었다.
+
+a,b=input().split()
+
+print(int(a)**int(b))
