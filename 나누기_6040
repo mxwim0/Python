@@ -1,0 +1,8 @@
+#두 정수를 입력받아서 나누기 하는 코드
+# sys라는 함수를 가져와서 사용해야 한다.
+
+import sys
+
+a,b= map(int,sys.stdin.readline().split())
+
+print(a//b)
