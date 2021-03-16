@@ -1,0 +1,6 @@
+#입력받아서 알파벳1개씩 \n로 출력하기
+#틀렸음
+
+word=list(str(input()))
+
+print("\n".join(word))
