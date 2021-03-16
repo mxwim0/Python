@@ -1,0 +1,8 @@
+#나눈 후에 나머지 구하는것은 %을 사용해야함.
+#참고로 몫 구하는것은 // 이것임.
+
+import sys
+
+a,b= map(int,sys.stdin.readline().split())
+
+print(a%b)
