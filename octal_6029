@@ -1,0 +1,5 @@
+#16진수를 입력받아서 8진수 (Octal)로 출력하기
+
+a=input()
+result=int(a,16)
+print("%o"%result)
