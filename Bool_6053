@@ -1,0 +1,10 @@
+#Bool의 값이 True면 False를 출력하고
+#Bool의 값이 False면 True를 출력하는 코드
+
+import sys
+a=bool(int(sys.stdin.readline()))
+
+if a is True:
+    print(False)
+else:
+    print(True)
