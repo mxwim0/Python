@@ -1,0 +1,8 @@
+# for 문을 써서 더 간결하게
+# i로 반복문을 사용하여서 리스트 안의 a,b,c에 접근
+
+import sys
+a,b,c,= map(int,input().split())
+
+for i in [a,b,c]:
+  print("True" if i//2==0 else "Odd")
