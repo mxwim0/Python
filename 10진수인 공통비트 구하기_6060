@@ -1,0 +1,8 @@
+#2개의 정수가 공백을 두고 입력된다.
+#두 정수를 비트단위로 and 계산을 수행한 결과를 10진수로 출력한다.
+
+import sys
+
+num1, num2 = map(int,sys.stdin.readline().split())
+
+print(num1 & num2)
