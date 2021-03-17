@@ -1,0 +1,11 @@
+# while 문과 break 문을 쓰기.
+# 7번째 줄에 int로 입력값을 둘러 쌓여줘야 int형 정수로 입력을 받는다. int를 쓰지 않으면 오류가 난다.
+
+import sys
+
+while True:
+    a=int(sys.stdin.readline())
+
+    if a == 0:
+        break
+    print(a)
