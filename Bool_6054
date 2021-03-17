@@ -1,0 +1,8 @@
+#두개의 정수를 입력받아서 같으면 True를 출력
+
+import sys
+a,b= map(int, input().split())
+if a and b == True:
+    print("True")
+else:
+    print("False")
