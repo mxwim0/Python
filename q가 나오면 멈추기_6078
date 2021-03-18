@@ -1,0 +1,9 @@
+#알파벳을 1개씩 입력받는다.
+#만약 q가 나오면 break를 하는 코드
+#여기서 헷갈렸던 부분은, break 문을 쓰려면 반드시 while문 안에 들어가야 있어야 한다는 것이었다.
+
+while True:
+    word=str(input())
+    print(word)
+    if word=="q":
+        break
