@@ -1,0 +1,9 @@
+#숫자를 1개 입력을 받아서, 숫자에 대응하는 알파벳을 차례대로 출력한다.
+#예를 들어 d를 입력하면, a b c d가 출력 됨.
+
+input=ord(input())
+start=ord("a")
+
+while start <=input:
+    print(chr(start))
+    start += 1
