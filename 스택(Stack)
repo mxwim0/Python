@@ -1,0 +1,12 @@
+from collections import deque
+stack=[]
+n=int(input())
+for i in range(n):
+    inp= int(input())
+    if inp != 0:
+        stack.append(inp)
+    else:
+        stack.pop()
+
+result= sum(stack)
+print(result)
