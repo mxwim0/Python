@@ -1,0 +1,13 @@
+""" 숫자가 1개 주어짐.
+그 숫자의 팩토리얼을 구해야함"""
+
+
+def reculsive(i):
+
+    if i==0:
+        return 1
+
+    return i * reculsive(i-1)
+
+n=int(input())
+print(reculsive(n))
