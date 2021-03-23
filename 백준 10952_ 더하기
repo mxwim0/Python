@@ -1,0 +1,8 @@
+# 2개의 정수를 계속 입력받아서 더함
+# 0 0 을 입력받으면 중단
+
+while True:
+    a, b = map(int, input().split())
+    if a == 0 and b == 0:
+        break
+    print(a+b)
