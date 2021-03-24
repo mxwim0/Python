@@ -1,0 +1,12 @@
+#수 나열하기
+#입력값: 1 -2 1 8
+#출력값: -85
+#a는 시작 숫자이지만, 매번마다 바뀐다. 8번줄과 11번줄을 저렇게 해놔야 한다.
+
+a,m,d,n= map(int, input().split())
+
+total=a
+
+for i in range(0,n-1):
+    total=total*m+d
+print(total)
