@@ -1,0 +1,13 @@
+#a는 시작, r는 등비, n는 등비의갯수
+#헷갈렸다.
+#특히 total=a 부분과, for i in range(0,n-1) total=total*r 부분이 헷갈렸음
+#입력값: 2 3 7
+#출력값: 1458
+
+a,r,n= map(int, input().split())
+
+total=a
+
+for i in range(0,n-1):
+    total=total*r
+print(total)
