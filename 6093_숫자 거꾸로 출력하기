@@ -1,0 +1,7 @@
+#숫자를 입력받아서 거꾸로 출력하기
+
+n=int(input())
+k=list(map(int,input().split()))
+
+for i in range(n-1,-1,-1):
+    print(k[i], end=" ")
