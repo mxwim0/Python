@@ -1,0 +1,40 @@
+내 코드
+ # A,B,C의 값 받기
+
+ A = input()
+
+ B = input()
+
+ C = input()
+
+ 
+
+ # A*B*C의 값 구하기
+
+ num = int(A) * int(B) * int(C)
+
+ 
+
+ # 결과값을 배열로 만들기
+
+ num = str(num)
+
+ 
+
+ # count()써서 개수 구하기
+
+ for i in range(0, 10):
+
+     print(num.count(str(i)))
+
+"""
+
+충격적인 숏코딩
+i=input;a=i()*i()*i()
+
+for i in range(10):print`a`.count(`i
+
+
+
+출처: https://sssunho.tistory.com/29
+"""
