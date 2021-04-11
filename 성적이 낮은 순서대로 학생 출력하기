@@ -1,0 +1,22 @@
+# 이것이 코딩 테스트다, 나동빈 저, 한빛미디어 p.180
+
+""" 입력예시: 
+2
+홍길동 95
+이순신 77
+
+출력예시: 이순신 홍길동 """
+
+#코드:
+
+num=int(input())
+results=[]
+
+for i in range (num):
+    a,b = map(str, input().split())
+    results.append((a,int(b)))
+
+results=sorted(results, key=lambda x: x[1])
+
+for i in range (len(results)):
+    print(results[i][0], end=" ")
