@@ -25,3 +25,6 @@ net.ipv4.icmp_echo_ignore_all = 1
 
 나. 적용하기
 # firewall-cmd –reload
+
+
+
