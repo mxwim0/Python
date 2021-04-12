@@ -1,0 +1,27 @@
+1. firewall 방화벽을 통한 응답제거하기
+# firewall-cmd --permanent --add-icmp-block=echo-request
+# firewall-cmd --reload
+
+ 
+2. 응답 상태확인
+# cat /proc/sys/net/ipv4/icmp_echo_ignore_all
+0
+ 
+ 
+3. 응답 거부로 변경
+# echo 1 > /proc/sys/net/ipv4/icmp_echo_ignore_all
+# cat /proc/sys/net/ipv4/icmp_echo_ignore_all
+1
+ 
+ 
+4. /etc/sysctl.conf 상태추가
+net.ipv4.icmp_echo_ignore_all = 1
+ 
+ 
+5. ddos 공격에 대한 무제한 접속막기
+가. 80 포트에 대한 30개 이상 접속시
+# firewall-cmd --permanent --direct --add-passthrough ipv4 -I INPUT -p tcp --syn --dport 80 -m connlimit --connlimit-above 30 -j REJECT
+
+
+나. 적용하기
+# firewall-cmd –reload
