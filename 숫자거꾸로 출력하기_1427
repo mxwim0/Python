@@ -1,4 +1,4 @@
-num_list = list(map(int, input()))
+num_list = list(map(int, input()))    # list형식으로 변환을 해줘야 한다.
 num_list.sort(reverse=True)
 for i in num_list:
     print(i, end='')
